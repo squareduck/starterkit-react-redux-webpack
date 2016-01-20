@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "describe": true,
+    "it": true
+  },
+  "ecmaFeatures": {
+    "blockBindings": true,
+    "forOf": true,
+    "jsx": true,
+    "modules": true,
+    "arrowFunctions": true,
+    "defaultParams": true
+  },
+  "plugins": ["react", "chai"],
+  "rules": {
+    "semi": 2,
+    "quotes": "single",
+    "new-cap": 0
+  }
+}
