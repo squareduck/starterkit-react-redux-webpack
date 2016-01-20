@@ -15,7 +15,7 @@
     "defaultParams": true,
     "destructuring": true
   },
-  "plugins": ["react", "chai"],
+  "plugins": ["react"],
   "rules": {
     "semi": 2,
     "quotes": "single",
