@@ -12,7 +12,8 @@
     "jsx": true,
     "modules": true,
     "arrowFunctions": true,
-    "defaultParams": true
+    "defaultParams": true,
+    "destructuring": true
   },
   "plugins": ["react", "chai"],
   "rules": {
