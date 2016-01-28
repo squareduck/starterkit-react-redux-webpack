@@ -1,10 +1,6 @@
-import {Map} from 'immutable';
+import { combineReducers } from 'redux'
+import common from './reducers/common'
 
-export default function(state = Map(), action) {
-  switch (action.type) {
-  case 'TEST_ACTION':
-    return state.merge({success: true});
-  }
-
-  return state;
-}
+export default combineReducers({
+  common
+})

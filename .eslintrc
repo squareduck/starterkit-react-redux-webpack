@@ -3,6 +3,7 @@
     "browser": true
   },
   "globals": {
+    "global": true,
     "describe": true,
     "it": true
   },
@@ -11,13 +12,14 @@
     "forOf": true,
     "jsx": true,
     "modules": true,
+    "classes": true,
     "arrowFunctions": true,
     "defaultParams": true,
     "destructuring": true
   },
   "plugins": ["react"],
   "rules": {
-    "semi": 2,
+    "semi": [2, "never"],
     "quotes": "single",
     "new-cap": 0
   }
