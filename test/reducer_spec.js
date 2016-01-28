@@ -5,16 +5,18 @@ import reducer from '../src/reducer'
 
 describe('reducer', () => {
   it('handles TEST_ACTION', () => {
-    const initialState = {}
+    const initialState = Map()
     const action = {
       type: 'TEST_ACTION'
     }
 
     const nextState = reducer(initialState, action)
 
-    expect(nextState.common).to.equal(fromJS({
-        success: true,
-        buttonText: 'Click me!'
+    expect(nextState).to.equal(fromJS({
+        common: {
+          success: true,
+          buttonText: 'Click me!'
+        }
     }))
   })
 })
